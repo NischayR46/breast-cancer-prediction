@@ -1,29 +1,31 @@
-Breast Cancer Prediction
+# Breast Cancer Prediction
 
-A machine learning project that classifies breast tumours as benign or malignant from cell-nucleus measurements, with a small Streamlit web app for live predictions.
+A machine learning project that classifies breast tumours as **benign** or **malignant** from cell-nucleus measurements, with a small Streamlit web app for live predictions.
 
-Dataset
-
+## Dataset
 Wisconsin Diagnostic Breast Cancer dataset (569 samples, 30 numeric features), loaded directly from scikit-learn.
 
-Approach
-Exploratory data analysis (class balance, feature distributions, correlations)
-Train/test split (80/20, stratified) and feature scaling
-Compared Logistic Regression, SVM, Random Forest and K-Nearest Neighbours
-Evaluated with accuracy, precision, recall, F1 and confusion matrix
-Results
+## Approach
+1. Exploratory data analysis (class balance, feature distributions, correlations)
+2. Train/test split (80/20, stratified) and feature scaling
+3. Compared Logistic Regression, SVM, Random Forest and K-Nearest Neighbours
+4. Evaluated with accuracy, precision, recall, F1 and confusion matrix
 
-Add your final numbers here after running the notebook, for example: Best model: <model name>, test accuracy: <xx>%, recall on malignant class: <xx>%
+## Results
+Add your final numbers here after running the notebook, for example:
+`Best model: <model name>, test accuracy: <xx>%, recall on malignant class: <xx>%`
 
-Project structure
-breast_cancer_prediction.ipynb - analysis and model comparison
-app.py - Streamlit app
-requirements.txt - dependencies
-How to run
-bash
+## Project structure
+- `breast_cancer_prediction.ipynb` - analysis and model comparison
+- `app.py` - Streamlit app
+- `requirements.txt` - dependencies
+
+## How to run
+```bash
 pip install -r requirements.txt
 jupyter notebook breast_cancer_prediction.ipynb
 streamlit run app.py
-Disclaimer
+```
 
+## Disclaimer
 Educational project only. Not for medical use.
